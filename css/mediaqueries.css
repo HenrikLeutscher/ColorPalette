@@ -1,0 +1,52 @@
+@media (min-width: 425px) {
+    .ColorsContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .IndividualColors {
+        height: 570px;
+    }
+
+    .IndividualColors h4 {
+        font-size: 2vw;
+        max-width: 90%;
+    }
+
+    .IndividualColors p {
+        font-size: 2vw;
+        max-width: 90%;
+    }
+
+    body h1 {
+        font-weight: 700;
+        font-size: var(--h1size);
+    }
+
+    body h2 {
+        font-weight: 600;
+        font-size: var(--h2size);
+    }
+
+    body h3 {
+        font-weight: 500;
+        font-size: var(--h3size);
+    }
+
+    body h4 {
+        font-size: var(--h4size);
+        font-weight: 500;
+    }
+
+    body p {
+        font-weight: 400;
+        font-size: var(--psize);
+    }
+
+    body button {
+        font-weight: 300;
+        font-size: var(--buttonsize);
+        font-family: var(--font);
+        color: var(--text-color);
+    }
+}
