@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   const instructionsClick = document.getElementById("instructionsClick");
-  instructionsClick.addEventListener("click", function () {
+  instructionsClick.addEventListener("click", () => {
     const instructions = document.getElementById("instructions");
     if (instructions.style.display === "none" || instructions.style.display === "") {
       instructions.style.display = "block";
